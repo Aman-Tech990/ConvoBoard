@@ -48,3 +48,23 @@ ConvoBoard/
 ├── app.js                 # Entry point
 ├── package.json
 └── README.md
+
+🙋‍♂️ Author
+Made with 💡 by Aman Parida
+
+LinkedIn
+
+GitHub
+
+📄 License
+MIT License – use it freely and improve upon it!
+
+
+---
+
+Would you like:
+- A **downloadable `README.md` file**?
+- A **styled GitHub Pages site** for this?
+- Or to include **Convoboard in your portfolio UI**?
+
+Let me know, and I’ll set it up quickly for you.
