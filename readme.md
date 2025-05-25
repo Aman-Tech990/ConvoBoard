@@ -50,7 +50,7 @@ ConvoBoard/
 └── README.md
 
 🙋‍♂️ Author
-Made with 💡 by Aman Parida
+Made with ❤️ by Aman Parida
 
 
 📄 License
