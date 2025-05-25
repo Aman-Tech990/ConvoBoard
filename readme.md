@@ -52,9 +52,6 @@ ConvoBoard/
 🙋‍♂️ Author
 Made with 💡 by Aman Parida
 
-LinkedIn
-
-GitHub
 
 📄 License
 MIT License – use it freely and improve upon it!
