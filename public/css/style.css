@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right, #f9dcdc, #f7e7e7);
+    margin: 1rem;
+    font-family: "Chivo", sans-serif !important;
+    color: #6e1414 !important;
+}
+
+.navbar {
+    border-radius: 1rem;
+    background-color: #f7e7e7 !important;
+    box-shadow: 1px 1px 2px #f7e7e7;
+}
+
+.navbar-brand {
+    font-family: "Rubik Dirt", system-ui;
+    color: #6e1414;
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05) !important;
+    color: #6e1414;
+}
+
+h2 {
+    text-align: center;
+    color: #6e1414;
+}
+
+.chat {
+    background-color: lightpink;
+    padding: 1rem;
+    border-radius: 16px;
+    margin: 1rem;
+    display: inline-block;
+}
+
+.message,
+.edit-msg {
+    padding: 0.5rem;
+    box-shadow: 1px 2px 4px #f2e6e6;
+    border-radius: 0.5rem;
+    background-color: #f2e6e6;
+}
+
+.sender,
+.receiver {
+    box-shadow: 1px 2px 2px #f2e6e6;
+    border-radius: 0.5rem;
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: #f2e6e6;
+}
+
+.new-chat-container {
+    text-align: left;
+}
+
+.new-chat-head {
+    margin-top: 1rem;
+}
+
+.edit-head {
+    margin-top: 1.25rem;
+}
+
+.edit-btn,
+.create-btn {
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 2px #f2e6e6;
+    width: 6rem;
+    height: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.edit-btn:hover,
+.create-btn:hover {
+    transform: scale(1.1);
+    opacity: 0.75;
+}

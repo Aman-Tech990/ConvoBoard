@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/chats">ConvoBoard</a>
+
+        <!-- Search form -->
+        <div class="d-block d-sm-none w-100 mt-2">
+            <!-- Visible only on xs screens -->
+            <form class="d-flex" method="GET" action="/chats/search">
+                <input class="form-control me-2" type="search" name="q" placeholder="Search chats" aria-label="Search">
+                <button class="btn btn-light" type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="collapse navbar-collapse d-none d-sm-flex justify-content-end">
+            <!-- Visible only on sm and larger screens -->
+            <form class="d-flex" method="GET" action="/chats/search">
+                <input class="form-control me-2" type="search" name="q" placeholder="Search chats" aria-label="Search">
+                <button class="btn btn-light" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>

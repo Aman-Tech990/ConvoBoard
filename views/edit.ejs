@@ -1,0 +1,21 @@
+<%- layout(`/layouts/boilerplate`) %>
+
+    <body>
+        <h5 class="edit-head">Edit your Chat, Your Chat ID : <%= currChat._id %>
+        </h5>
+        <p class="edit-desc">This chat was sent from <b>
+                <%= currChat.from %>
+            </b> to <b>
+                <%= currChat.to %>
+            </b>
+        </p>
+
+        <form method="post" action="/chats/<%=currChat._id%>/?_method=PATCH">
+            <textarea name="message" class="edit-msg" rows="15" cols="80"><%= currChat.message %></textarea> <br>
+
+            <button type="submit" class="edit-btn">Edit</button>
+        </form>
+
+    </body>
+
+    </html>
